@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="country_name">Country Name</string>
+    <string name="searching_city_weather_information">Searching City Weather Information</string>
+    <string name="enter_city_name">Enter City Name</string>
+    <string name="search">Search</string>
+    <string name="centigrade">°C</string>
+    <string name="fahrenheit">°F</string>
+    <string name="weather_details_image">Weather Details Image</string>
+    <string name="forecast_icon_1">Forecast Icon 1</string>
+    <string name="forecast_icon_2">Forecast Icon 2</string>
+    <string name="forecast_icon_3">Forecast Icon 3</string>
+    <string name="forecast_icon_5">Forecast Icon 4</string>
+    <string name="forecast_icon_4">Forecast Icon 5</string>
+    <string name="weekday">Weekday</string>
+    <string name="_10">10</string>
+    <string name="weather_type">Weather Type</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    <string name="centigrade_text">Centigrade</string>
+    <string name="fahrenheit_text">Fahrenheit</string>
+    <string name="city_name">City Name</string>
+    <string name="developer_description">My name is Joybrata Paul. I am a software developer. I am currently developing android applications using Android Studio. I have developed this weather app for you, so that you can get the current as well as three days of weather forecast details of your curent location. Also you can get the current as well as three days of weather forecast details of any location you want by searching by the name of that place. Also you can change the unit of the temperature as per your liking whether you want to see the temperature in Centigrade or Fahrenheit. I hope you will like this dynamic app. Thank you for using it.</string>
+    <string name="joy_weather_app">Joybrata\'s Weather App</string>
+    <string name="joybrata_paul">Joybrata Paul</string>
+    <string name="weather_app">Weather App</string>
+    <string name="date">Date</string>
+</resources>
