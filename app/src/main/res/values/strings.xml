@@ -20,9 +20,11 @@
     <string name="centigrade_text">Centigrade</string>
     <string name="fahrenheit_text">Fahrenheit</string>
     <string name="city_name">City Name</string>
-    <string name="developer_description">My name is Joybrata Paul. I am a software developer. I am currently developing android applications using Android Studio. I have developed this weather app for you, so that you can get the current as well as three days of weather forecast details of your curent location. Also you can get the current as well as three days of weather forecast details of any location you want by searching by the name of that place. Also you can change the unit of the temperature as per your liking whether you want to see the temperature in Centigrade or Fahrenheit. I hope you will like this dynamic app. Thank you for using it.</string>
+    <string name="developer_description">My name is Joybrata Paul. I am a software developer. I am currently developing Android applications using Android Studio. I have developed this weather app for you, so that you can get the current as well as five days of weather forecast details of your current location. Also, you can get the current as well as five days of weather forecast details of any location you want by searching by the name of that place. Also, you can change the unit of the temperature as per your liking whether you want to see the temperature in Centigrade or Fahrenheit. I hope you will like this dynamic app. Thank you for using it.</string>
     <string name="joy_weather_app">Joybrata\'s Weather App</string>
     <string name="joybrata_paul">Joybrata Paul</string>
     <string name="weather_app">Weather App</string>
     <string name="date">Date</string>
+    <string name="menu">Menu</string>
+    <string name="c_f">°C/°F</string>
 </resources>

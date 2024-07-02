@@ -50,6 +50,15 @@ class MainActivity : AppCompatActivity() {
             fetchWeatherDataByLocation()
         }
 
+        binding.ibMenu.setOnClickListener {
+            binding.drawerLayout.open()
+        }
+
+        binding.tvCity.setOnClickListener {
+            val bottomSheet = CityInputBottomSheetFragment()
+            bottomSheet.show(supportFragmentManager, "CityInputBottomSheet")
+        }
+
         binding.fabSearch.setOnClickListener {
             val bottomSheet = CityInputBottomSheetFragment()
             bottomSheet.show(supportFragmentManager, "CityInputBottomSheet")

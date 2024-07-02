@@ -23,12 +23,29 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageButton
+                    android:id="@+id/ib_menu"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/menu"
+                    android:src="@drawable/round_menu_24"/>
 
                 <TextView
                     android:id="@+id/tv_city"
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
                     android:fontFamily="sans-serif-black"
                     android:text="@string/city_name"
                     android:textColor="#fff"
@@ -38,13 +55,15 @@
                     android:id="@+id/fab_search"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginStart="100dp"
-                    android:layout_marginEnd="100dp"
+                    android:layout_marginStart="16dp"
                     android:contentDescription="@string/searching_city_weather_information"
                     android:src="@drawable/round_search_24"
-                    app:backgroundTint="@color/white" />
-
+                    app:backgroundTint="@color/white"/>
             </LinearLayout>
+
+
+
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -66,7 +85,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:padding="10dp"
-                    android:text="@string/centigrade"
+                    android:text="@string/c_f"
                     android:textColor="#fff"
                     android:textSize="50sp" />
 
@@ -170,7 +189,7 @@
                         android:layout_marginStart="15dp"
                         android:layout_weight="1"
                         android:fontFamily="casual"
-                        android:text="22/14"
+                        android:text="@string/c_f"
                         android:textColor="#fff"
                         android:textSize="20sp" />
 
@@ -210,7 +229,7 @@
                         android:layout_marginStart="15dp"
                         android:layout_weight="1"
                         android:fontFamily="casual"
-                        android:text="22/14"
+                        android:text="@string/c_f"
                         android:textColor="#fff"
                         android:textSize="20sp" />
 
@@ -250,7 +269,7 @@
                         android:layout_marginStart="15dp"
                         android:layout_weight="1"
                         android:fontFamily="casual"
-                        android:text="22/14"
+                        android:text="@string/c_f"
                         android:textColor="#fff"
                         android:textSize="20sp" />
 
@@ -290,7 +309,7 @@
                         android:layout_marginStart="15dp"
                         android:layout_weight="1"
                         android:fontFamily="casual"
-                        android:text="22/14"
+                        android:text="@string/c_f"
                         android:textColor="#fff"
                         android:textSize="20sp" />
 
@@ -330,7 +349,7 @@
                         android:layout_marginStart="15dp"
                         android:layout_weight="1"
                         android:fontFamily="casual"
-                        android:text="22/14"
+                        android:text="@string/c_f"
                         android:textColor="#fff"
                         android:textSize="20sp" />
 
