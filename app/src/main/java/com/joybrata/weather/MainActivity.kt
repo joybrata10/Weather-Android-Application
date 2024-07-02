@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity() {
         binding.weekday.text = weekdayFormat.format(calendar.time)
     }
 
-    fun fetchWeatherDataByLocation() {
+    private fun fetchWeatherDataByLocation() {
         if (ActivityCompat.checkSelfPermission(
                 this,
                 Manifest.permission.ACCESS_FINE_LOCATION
