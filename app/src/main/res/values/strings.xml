@@ -25,6 +25,10 @@
     <string name="joybrata_paul">Joybrata Paul</string>
     <string name="weather_app">Weather App</string>
     <string name="date">Date</string>
+<<<<<<< HEAD
     <string name="menu">Menu</string>
     <string name="c_f">°C/°F</string>
 </resources>
+=======
+</resources>
+>>>>>>> 9bcd1f004023af4f172b7aaf2db2621beafb39a3
